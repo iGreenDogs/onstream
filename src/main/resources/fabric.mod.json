@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "on",
+  "version": "${version}",
+
+  "name": "On Stream",
+  "description": "This mod was made on stream ;)",
+  "authors": [
+    "BobWazHeer"
+  ],
+  "contact": {
+
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.bobwazheer.mods.onstream.OnStreamMain"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
